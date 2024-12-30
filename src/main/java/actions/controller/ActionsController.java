@@ -8,7 +8,6 @@ public class ActionsController {
 	
 	@GetMapping(value = "/api/actions")
 	public String actionsTest() {
-		return "app-Docker-Compose-with-actions version:0.0.1";
-	}
+		return "app-Docker-Compose-with-actions version:0.0.1 잘 안돼??";	}
 	
 }
